@@ -29,6 +29,7 @@ componentDidMount(){
 		return (
 			<div className="app">
 			<ul>
+			<h1>my react app </h1>
 			{items.map(item=>(
 				<li key={item.id}>
 					{item.post_title}
